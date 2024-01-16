@@ -22,11 +22,7 @@ const data = [
     },
     {
         key: 3,
-<<<<<<< HEAD
-        img: '.../public/images/rome.jpg',
-=======
         img: './public/images/rome.jpg',
->>>>>>> 313aa5fc149f5576111ca3ea539bc555de4785c7
         location: 'Italy',
         link: 'https://www.google.com.fj/maps/place/Colosseo,+00184+Roma+RM,+Italy/@41.8905731,12.4897237,17z/data=!3m1!4b1!4m6!3m5!1s0x132f61b6fc6433df:0x165f79d5d2332163!8m2!3d41.8905691!4d12.4922986!16s%2Fg%2F1q63cjjhd?entry=ttu',
         name: 'Colosseum',
