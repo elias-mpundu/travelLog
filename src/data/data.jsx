@@ -1,6 +1,6 @@
-import fujiImage from "/images/mountFuji.jpg"
-import romeImage from "/images/rome.jpg"
-import fallsImage from "/images/victorialFalls.jpg"
+import fujiImage from "images/mountFuji.jpg"
+import romeImage from "images/rome.jpg"
+import fallsImage from "images/victorialFalls.jpg"
 
 const data = [
     {
