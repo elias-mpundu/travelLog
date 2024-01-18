@@ -1,11 +1,11 @@
-// import fujiImage from "images/mountFuji.jpg"
-// import romeImage from "images/rome.jpg"
-// import fallsImage from "images/victorialFalls.jpg"
+import fujiImage from "images/mountFuji.jpg"
+import romeImage from "images/rome.jpg"
+import fallsImage from "images/victorialFalls.jpg"
 
 const data = [
     {
         key: 1,
-        img: "./public/images/mountFuji.jpg",
+        img: {fujiImage},
         location: 'Japan',
         link: 'https://www.google.com.fj/maps/place/Mount+Fuji/@35.3606891,138.7272141,20z/data=!4m6!3m5!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606255!4d138.7273634!16zL20vMGNrczA?entry=ttu',
         name: 'Mount Fuji',
@@ -15,7 +15,7 @@ const data = [
     },
     {
         key: 2,
-        img: "./public/images/victorialFalls.jpg",
+        img: {fallsImage},
         location: 'Zambia',
         link: 'https://www.google.com.fj/maps/place/Victoria+Falls/@-17.9255155,25.8559587,17z/data=!3m1!4b1!4m6!3m5!1s0x194feff9da0bf2f9:0x8b054663df18d568!8m2!3d-17.9255206!4d25.8585336!16zL20vMDFiYmd5?entry=ttu',
         name: 'Victoria Falls',
@@ -25,7 +25,7 @@ const data = [
     },
     {
         key: 3,
-        img: "./public/images/rome.jpg",
+        img: {romeImage},
         location: 'Italy',
         link: 'https://www.google.com.fj/maps/place/Colosseo,+00184+Roma+RM,+Italy/@41.8905731,12.4897237,17z/data=!3m1!4b1!4m6!3m5!1s0x132f61b6fc6433df:0x165f79d5d2332163!8m2!3d41.8905691!4d12.4922986!16s%2Fg%2F1q63cjjhd?entry=ttu',
         name: 'Colosseum',
